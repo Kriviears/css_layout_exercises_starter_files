@@ -1,16 +1,12 @@
 main{
-	background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(images/outerspace_landscape.jpeg.jpg);
-  background-size: cover;
-  font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 body {
+  background: 
+    url(images/outerspace_landscape.jpeg);
+  background-size: cover;
+  position: fixed;
 }
 
 nav{
@@ -27,11 +23,14 @@ nav > img{
 	width: 50px;
 	display: flex;
 	justify-content: space-around;
+	position: absolute;
 	margin-top: 25px;
 }
 
 nav > li{
 	position: relative;
+	list-style: none;
+	display: inline;
 }
 
 .landscape{
