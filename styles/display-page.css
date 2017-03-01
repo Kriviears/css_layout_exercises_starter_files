@@ -5,10 +5,6 @@
 }
 
 main{
-	width: 800px;
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
 	font-size: 0;
 }
 
@@ -18,15 +14,21 @@ main{
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 0;
+	background-color: black;
+}
+
+.top, .bot{
+	display: inline-block;
+  	border: 1px solid black;
 }
 
 .top{
 	height: 200px;
-	width: 25%;
+	width: 50%;
 }
 .bot{
 	height: 300px;
-	width: 33%;
+	width: 33.33%;
 }
 
 .green{
