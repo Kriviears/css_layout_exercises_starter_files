@@ -4,17 +4,22 @@ main{
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 0;
+}
+
+.Box{
+	display: inline-block;
 	border: 1px solid-black;
 }
 
 .top{
 	height: 200px;
-	width: 398px;
-	display: inline-block;
+	width: 25%;
+	max-width: 398px;
 }
 .bot{
 	height: 300px;
-	width: 265px;
+	width: 33%;
+	max-width: 265px;
 }
 
 .green{
