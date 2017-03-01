@@ -36,6 +36,15 @@ nav ul{
 	list-style: none;
 }
 
+nav	li{
+	display: inline-block;
+}
+
+nav li::after {
+	content: "|";
+	margin-left: 5px;
+}
+
 .landscape{
 	position: relative;
 	background-size: cover;
