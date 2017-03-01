@@ -1,0 +1,37 @@
+main{
+	width: 800px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 0;
+}
+
+.Box{
+	display: inline-block;
+	border: 1px solid-black;
+}
+
+.top{
+	height: 200px;
+	width: 25%;
+}
+.bot{
+	height: 300px;
+	width: 33%;
+}
+
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.grey{
+	background-color: grey;
+}
+.black{
+	background-color: black
+}
+.gold{
+	background-color: gold;
+}
