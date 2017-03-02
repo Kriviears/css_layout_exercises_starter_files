@@ -13,6 +13,8 @@ main {
 
 
 .first-image{
+	height: 400px;
+	width: 400px;
 	float: left;
 	margin-right: 10px;
 
