@@ -13,20 +13,17 @@ main {
 
 .medium{
 	width: 300px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 .first-image{
-	height: 400px;
-	width: 400px;
 	float: left;
 	margin-right: 15px;
-	margin-bottom: 15px;
-	margin-top: 15px;
+
 }
 
 .second-image{
 	float: right;
 	margin-left: 15px;
-	margin-bottom: 15px;
-	margin-top: 15px;
 }
