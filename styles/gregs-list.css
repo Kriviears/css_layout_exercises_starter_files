@@ -20,6 +20,9 @@ nav{
 	padding-right: 60px;
 }
 
+.container > li{
+	text-align: right;
+}
 .logo{
 	position: relative;
 	display: inline-block;
@@ -29,10 +32,13 @@ nav ul{
 	display: inline-block;
 	list-style: none;
 	position: relative;
+	text-align: right;
 }
 
 nav li{
 	display: inline-block;
+	font-size: 125%;
+	text-align: right;
 }
 
 .search-box{
