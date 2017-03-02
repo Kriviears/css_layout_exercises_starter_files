@@ -11,6 +11,9 @@ main {
   margin-right: auto;
 }
 
+.medium{
+	width: 300px;
+}
 
 .first-image{
 	height: 400px;
