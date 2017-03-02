@@ -43,3 +43,28 @@ nav li::after {
 	margin-left: 5px;
 }
 
+.screen{
+	width: 600px;
+	height: 300px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border:  10px dashed green;
+	position: relative;
+}
+
+.spacedog, .spacecat{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
+
+.spacecat{
+	top:-120px;
+	left:-60px; 
+
+}
+.spacedog{
+	bottom: -120px;
+	right: -60px;
+}
