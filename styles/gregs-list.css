@@ -7,6 +7,14 @@
 body {
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
 nav {
   position: fixed;
   background-color: grey;
@@ -15,8 +23,8 @@ nav {
 }
 
 .container {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 .container > li {
@@ -26,12 +34,17 @@ nav {
 .logo {
   position: relative;
   display: inline-block;
+  float: left;
 }
 
 nav ul {
   display: inline-block;
-  list-style: none;
   position: relative;
+  float: right;
+}
+
+ul{
+  list-style: none;
 }
 
 nav li {
@@ -40,40 +53,81 @@ nav li {
 }
 
 label{
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .search-box {
   border: 1px solid blue;
   margin-top:100px;
-  margin-left:100px;
+  margin-left:50px;
   width:500px;
+  height:45px;
   display: inline-block;
   position: relative;
 }
 
+input{
+  height: 25px;
+}
+
 .search-box .go-button{
-  height: 22px;
-  width: 22px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  height: 25px;
+  width: 25px;
   position: absolute;
-  bottom: 1px;
+  bottom: 0px;
+  margin-left:3px;
+  padding:1px;
 }
 
 .pages {
-  margin-left:100px;
+  border-radius: 5px;
+  margin-left:50px;
   margin-top:30px;
   height: 30px;
   width: 300px;
   border: 1px solid black;
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
+.left-divider{
+    position:absolute;
+    left:27%;
+    top:0%;
+    bottom:0%;
+    border-left:1px solid grey;
+}
+.right-divider{
+    position:absolute;
+    left:73%;
+    top:0%;
+    bottom:0%;
+    border-left:1px solid grey;
+}
+
+.results{
+  margin-top: 5px;
+  position: relative;
+}
+
 
 .control{
-  border: 1px solid black;
+  margin-top: 5px;
 }
 
-.results {}
+.display{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.display:before{
+  border-left:1px solid grey;
+}
+.display:after{
+  
+}
 
 .listing {
   margin-left: 15px;
@@ -82,4 +136,28 @@ label{
 
 .job1::before {
   content: "June 22 ";
+  color: grey;
+}
+
+.job2::before {
+  content:"June 21 ";
+  color: grey;
+}
+
+.job3::before {
+  content:"June 20 ";
+  color: grey;
+}
+
+.job1::after {
+  content: " Midtown East";
+  color: grey;
+}
+.job2::after {
+  content: " SoHo";
+  color: grey;
+}
+.job3::after {
+  content: " Flatiron";
+  color: grey;
 }
