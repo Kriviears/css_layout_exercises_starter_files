@@ -56,13 +56,10 @@ section a {
   color: grey;
 }
 
-a {
-  color: white;
-}
 
 p, a {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
+  color: white;
 }
 
 button{
