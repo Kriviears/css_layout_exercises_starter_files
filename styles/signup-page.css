@@ -8,6 +8,12 @@ body {
   background-color: blue;
 }
 
+img{
+  display:block;
+  height:35px;
+  margin: 50px auto 30px;
+}
+
 .signup-form {
   background-color: white;
   top: 35px;
@@ -57,4 +63,12 @@ a {
 p, a {
   display: flex;
   justify-content: space-around;
+}
+
+button{
+  background-color: lightgreen;
+}
+
+button:hover{
+  background-color:green;
 }
