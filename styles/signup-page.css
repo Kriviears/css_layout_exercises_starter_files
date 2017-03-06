@@ -47,6 +47,8 @@ button {
   padding: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  height:55px;
+  background-color: lightgreen;
 }
 
 section a {
@@ -62,9 +64,6 @@ p, a {
   color: white;
 }
 
-button{
-  background-color: lightgreen;
-}
 
 button:hover{
   background-color:green;
